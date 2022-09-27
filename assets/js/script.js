@@ -18,3 +18,6 @@ const handleKeyDown = function (event) {
 
 // add key down event listener
 document.addEventListener("keydown", handleKeyDown);
+
+// add key up event listener
+document.addEventListener("keyup", handleKeyUp);
